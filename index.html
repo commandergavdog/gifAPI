@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Ghibli Gif Generator!</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+</head>
+<body>
+  <nav class="navbar navbar-light bg-faded justify-content-between" style="background-color:#1b9fd0">
+    <a class="navbar-brand" href="#">
+      <img src="assets/img/cat_bus.gif" width="200" height="65" alt="">
+    </a>
+    <span id="font" class="center-text">Ghibli Gif Generator</span>
+    <form class="form-inline">
+      <input class="form-control mr-sm-2" type="text" placeholder="Add a film..." id="film-input">
+      <button class="btn btn-dark my-2 my-sm-0" type="submit" id="add-film">Add!</button>
+    </form>
+  </nav>
+
+<!--Buttons here-->
+  <div class="container">
+    <div class="row">
+        <div id="newButtons" class="col-md-12 mx-auto text-center">
+            <h1>buttons populate here</h1>
+        </div>
+    </div>
+  </div>
+  <hr>
+
+  <!--GIFs here-->
+    <div class="container-fluid">
+        <div class="row">
+            <div class=" mx-auto col-12">
+                <div id="gifs">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="assets/js/giphy.js"></script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+body{
+    background-color: #e65d64
+}
+
+@font-face{
+    font-family: 'ghibliFont';
+    src: url('assets/fonts/spumoni.ttf')
+    format('truetype');
+}
+
+#font {
+    font-family: 'ghibliFont';
+    font-size: 2rem;
+}
